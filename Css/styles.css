@@ -20,6 +20,16 @@ a {
     text-decoration: none;
 }
 
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .button {
     text-align: center;
 }
@@ -125,4 +135,34 @@ a {
 
 .header__right {
     justify-content: flex-end;
+}
+
+.banner {
+    height: 600px;
+    background-image: url("../assets/images/banner.png") ;
+    background-repeat: no-repeat;
+
+}
+
+.banner__content {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.banner__content p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.banner__content a {
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    padding-right: 10px;
+    border-bottom: 1px solid #ffffff;
 }
