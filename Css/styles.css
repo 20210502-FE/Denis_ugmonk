@@ -9,7 +9,7 @@ html . body {
 }
 
 body {
-    position: relative;
+     position: relative;
 }
 
 li {
@@ -23,8 +23,6 @@ a {
 .button {
     text-align: center;
 }
-
-.img
 
 .button_black {
     background-color: #1a1a1a;
@@ -53,27 +51,63 @@ a {
     padding: 1px 13px;
     font-size: 12px;
     line-height: 28px;
+    background-color: black;
+    color: white;
 }
 
 .header {
-    display: flex;
-
-    padding: 32px;
-    padding-bottom: 42px;
     background-color: #ffffff;
     color: #292929;
 }
 
+.header__wrapper {
+    display: flex;
+    max-width: calc(100% - 121px - 75px);
+    margin: 0 auto;
+    padding: 32px 17px 42px 0;
+    border-right: 1px solid #1a1a1a;
+}
+
 .header__logo {
-    margin-right: 66px;
+    margin-right: 50px;
     max-width: 256px;
 }
 
-.header__nav {
+.header__nav a {
     color: #292929;
+    transition: color .3s ease;
 }
 
-.header__nav_right
+.header__nav a:hover {
+    color: #928e71;
+}
+
+.header__nav_left {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.header__nav_left .header__nav-item {
+    margin: 0 16px;
+}
+
+.header__nav_right {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.header__nav_right .header__nav-item {
+    padding: 0 13px;
+}
+
+.header__nav_right .header__nav-item:nth-child(odd) {
+    border-right: 1px solid #1a1a1a;
+    padding: 0 13px;
+}
+
+.header__nav_right .header__nav-item:nth-child(2) {
+    padding-right: 17px;
+}
 
 .header__left, .header__right {
     flex-basis: 50%;
@@ -84,4 +118,11 @@ a {
 .header__left ul, .header__right ul {
     display: flex;
 }
-.
+
+.header__nav-item_icon img {
+    max-width: 18px;
+}
+
+.header__right {
+    justify-content: flex-end;
+}
