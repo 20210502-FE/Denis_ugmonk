@@ -327,3 +327,76 @@ a {
     justify-content: center;
     margin: 100px;
 }
+
+.shop_mens {
+    border-bottom: 1px solid black;
+}
+
+.shop_womens {
+    border-bottom: 1px solid black;
+}
+
+.shop_objects {
+    border-bottom: 1px solid #000000;
+}
+
+.gather {
+    background-color: #CED3CA;
+    height: 660px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gather-wrapper {
+    background-color: #f7f7f7;
+    width: 406px;
+    height: 406px;
+}
+
+.gather__banner-content {
+    margin: 90px 105px 179px 93px;
+}
+
+.gather__content-title- {
+    font-size: 37px;
+    margin-bottom: 33px;
+}
+
+.gather__banner-content a {
+    font-size: 15px;
+    color: #000000;
+    padding-right: 15px;
+    border-bottom: 1px solid #000000;
+}
+
+.gather__banner-right {
+    height: 406px;
+}
+
+.story {
+    height: 600px;
+    background-image: url("../assets/images/rectangle-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.story__content {
+   height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.story__content-text {
+    max-width: 400px;
+    text-align: center;
+}
+
+.story__content a {
+    font-size: 15px;
+    color: black;
+    border-bottom: 1px solid #FFFFFF;
+}
