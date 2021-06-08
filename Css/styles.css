@@ -260,3 +260,70 @@ a {
     flex-basis: 50%;
     max-width: 50%;
 }
+
+.stock__banner {
+    padding: 110px 140px;
+    background-color: #CED3CA;
+}
+
+.banner__content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.stock__banner-left {
+    height:200px;
+    max-width: 500px;
+    padding: 20px;
+    justify-content: flex-start;
+
+}
+
+.stock__banner-left p {
+    margin: 90px 105px 33px 93px;
+    font-size: 38px;
+    line-height: 21px;
+    color: black;
+}
+
+.stock__banner-left a {
+    margin: 0 93px;
+    font-size: 14px;
+    line-height: 21px;
+    color: black;
+    padding-right: 15px;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.stock__banner-right {
+    margin: 0 auto;
+    height: 406px;
+}
+
+.directory__left {
+    flex-direction: column;
+    margin: 100px;
+}
+
+.directory__left_right {
+    flex-direction: column;
+    margin: 100px;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin: 40px 0;
+    line-height: 150%;
+
+}
+
+.shop_objects {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px;
+}
