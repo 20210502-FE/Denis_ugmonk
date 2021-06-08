@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Ugmonk</title>
@@ -8,36 +8,207 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="top-banner">
-    <span class="top-banner__text">
+<div class="top-banner">
+        <span class="top-banner__text">
         &#128230; Final Stock - Up to 50% off select items
-    </span>
-    <button type="button"class="button button_black top-banner__button">Shop the sale</button>
-    </div>
-    <header class="header">
+        </span>
+    <button type="button" class="button button_black top-banner__button">Shop the sale</button>
+</div>
+<header class="header">
+    <div class="wrapper header__wrapper">
         <div class="header__left">
             <div class="header__logo">
                 <img src="assets/images/header-logo.png" alt="Ugmonk">
             </div>
             <nav class="header__nav header__nav_left">
                 <ul>
-                    <li class="header__nav-item"><a href="#">man</a></li>
-                    <li class="header__nav-item"><a href="#">woman</a> </li>
-                    <li class="header__nav-item"><a href="#">object</a></li>
-                    <li class="header__nav-item"><a href="#">analog</a></li>
+                    <li class="header__nav-item"><a href="#">Men</a></li>
+                    <li class="header__nav-item"><a href="#">Woman</a></li>
+                    <li class="header__nav-item"><a href="#">Object</a></li>
+                    <li class="header__nav-item"><a href="#">Analog</a></li>
                 </ul>
             </nav>
         </div>
         <div class="header__right">
-        <nav class="header__nav header__nav_right">
-            <ul>
-                <li class="header__nav-item"><a href="#">Journal</a></li>
-                <li class="header__nav-item"><a href="#">Search</a> </li>
-                <li class="header__nav-item"><a href="#">Login</a></li>
-                <li class="header__nav-item"><a href="#">analog</a></li>
+            <nav class="header__nav header__nav_right">
+                <ul>
+                    <li class="header__nav-item">
+                        <a href="#">Journal</a></li>
+                    <li class="header__nav-item">
+                        <a href="#">Search</a></li>
+                    <li class="header__nav-item">
+                        <a href="#">Login</a></li>
+                    <li class="header__nav-item header__nav-item_icon">
+                        <a href="#"><img src="assets/icons/basket.png" alt="bassket"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<section class="banner">
+    <div class="wrapper banner__content">
+        <p>Analog: The Simplest Productivity System</p>
+        <a href="#">Learn more</a>
+    </div>
+</section>
+<section class="specials">
+    <div class="wrapper">
+        <nav class="specials__nav">
+            <ul class="specials__nav-list">
+                <li class="specials__nav-item">
+                    <a class="specials__nav-link specials__nav-link_active" href="">New arrivals</a></li>
+                <li class="specials__nav-item">
+                    <a class="specials__nav-link" href="">Final Stock</a></li>
+                <li class="specials__nav-item">
+                    <a class="specials__nav-link" href="">Best Sellers</a></li>
+                <li class="specials__nav-item">
+                    <a class="specials__nav-link" href="">Clothing</a></li>
+                <li class="specials__nav-item">
+                    <a class="specials__nav-link" href="">Objects</a></li>
+                <li class="specials__nav-item">
+                    <a class="specials__nav-link" href="">Face Masks</a></li>
             </ul>
         </nav>
+        <div class="specials__content">
+            <div class="flex-column flex-column_25">
+                <article class="product">
+                    <img src="assets/images/product-1.png" alt="">
+                    <h5 class="product__title">Preorder - Analog Starter Kit
+                        Typography
+                        <span class="product__title product__title_grey">(Grey)</span></h5>
+                    <p class="product__price">32.00
+                        <span class="product__price product__price_red">$79.00</span></p>
+                </article>
+            </div>
+            <div class="flex-column flex-column_25">
+                <article class="product">
+                    <img src="assets/images/product-2.png" alt="">
+                    <h5 class="product__title">Preorder - Analog Cards
+                        Typography</h5>
+                    <p class="product__price">$34.00 </p>
+                </article>
+            </div>
+            <div class="flex-column flex-column_25">
+                <article class="product">
+                    <img src="assets/images/product-3.png" alt="">
+                    <h5 class="product__title">Preorder - Analog Starter Kit</h5>
+                    <p class="product__price">$56.00 <span>$79.00</span></p>
+                </article>
+            </div>
+            <div class="flex-column flex-column_25">
+                <article class="product">
+                    <img src="assets/images/product-4.png" alt="">
+                    <h5 class="product__title">Preorder - Analog Wood Card Holder
+                        <span class="product__title product__title_grey">(Grey)</span></h5>
+                    <p class="product__price">$43.00
+                        <span class="product__price product__price_red">$79.00</span></p>
+                </article>
+            </div>
+            <div class="flex-column flex-column_25">
+                <article class="product">
+                    <img src="assets/images/product-5.png" alt="">
+                    <h5 class="product__title">Modus Operandi - Artist Collab</h5>
+                    <p class="product__price">$56.00</p>
+                </article>
+            </div>
+            <div class="flex-column flex-column_25">
+                <article class="product">
+                    <img src="assets/images/product-6.png" alt="">
+                    <h5 class="product__title">Modus Operandi 01 - Artist Collab
+                        <span class="product__title product__title_grey">(Grey)</span></h5>
+                    <p class="product__price">$32.00
+                        <span class="product__price product__price_red">$79.00</span></p>
+                </article>
+            </div>
+            <div class="flex-column flex-column_25">
+                <article class="product">
+                    <img src="assets/images/product-7.png" alt="">
+                    <h5 class="product__title">Modus Operandi 03 - Artist Collab</h5>
+                    <p class="product__price">$22.00</p>
+                </article>
+            </div>
+            <div class="flex-column flex-column_25">
+                <article class="product">
+                    <img src="assets/images/product-8.png" alt="">
+                    <h5 class="product__title">Modus Operandi 02 - Artist Collab</h5>
+                    <p class="product__price">$22.00</p>
+                </article>
+            </div>
+            <div class="flex-column flex-column_25">
+                <article class="product">
+                    <img src="assets/images/product-9.png" alt="">
+                    <h5 class="product__title">Modus Operandi 02 - Artist Collab</h5>
+                    <p class="product__price">$22.00</p>
+                </article>
+            </div>
+            <button type="button"
+                    class="button button_black specials__button ">
+                Shop new Arrivals
+            </button>
         </div>
-    </header>
+    </div>
+</section>
+<section class="stock__banner">
+    <div class="banner__content-wrapper">
+        <div class="stock__banner-left">
+            <p>Finale Stock - Up to 50%</p>
+            <a href="#">Shop the sale</a>
+        </div>
+        <div class="stock__banner-right">
+            <img src="assets/images/stock-clothes.png"/>
+        </div>
+    </div>
+</section>
+<section class="shop">
+    <div class="title">
+        <p>Our mission is to create simple, beautiful objects that combine form and function.</p>
+    </div>
+    <div class="directory__left_right">
+        <img src="assets/images/shops-mens.png">
+        <nav class="shop_mens">
+            <ul>
+                <li>Shop mens</li>
+            </ul>
+        </nav>
+        <img src="assets/images/shops-womens.png">
+        </nav>
+        <nav class="shop_womens">
+            <ul>
+                <li>Shop Womens</li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class="shop_objects">
+            <img src="assets/images/shops.png">
+            <nav class="shop_objects_nav">
+                <ul class="">
+                    <li>Shop Objects</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+<section class="gather">
+    <div class="gather__banner">
+        <div class="gather-wrapper">
+            <div class="gather__banner-content">
+                <p class=gather__content-title="Gather"></p>
+                <p class="gather__content-text">The minimal, modular desk organizer that cuts through the clutter</p>
+                <a href="#">Shop Gather</a>
+            </div>
+            <div class="gather__banner-right">
+                <img src="assets/images/gather.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="story">
+    <div class="story__content">
+        <p class="story__content-text">A design studio in Downingtown, PA, creating and curating products that combine form & function</p>
+        <img src="assets/images/rectangle-4.png">
+        <a href="#">Read our story</a>
+    </div>
+</section>
 </body>
 </html>
